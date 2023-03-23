@@ -1,3 +1,4 @@
+(async () => {
 chrome.commands.onCommand.addListener((command) => {
 
     if (command === 'open-popup-window')
@@ -27,3 +28,4 @@ chrome.commands.onCommand.addListener((command) => {
         });
     }
 )
+})();
